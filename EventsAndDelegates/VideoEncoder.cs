@@ -23,7 +23,7 @@ namespace EventsAndDelegates
 
         // EventHandler
         // EventHandler<TEventArgs>
-        public event EventHandler<VideoEventArgs> VideoEncoded;  //The same as above from the .NET
+        public event EventHandler<VideoEventArgs> VideoEncoded;  //The same as above + below from the .NET 3.0 (maybe 2.0) to double check
 
         //2
         //public event VideoEncodedEventHandler VideoEncoded; <-- Don't need anymore
