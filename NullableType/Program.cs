@@ -9,7 +9,7 @@ namespace NullableType
     /*
      Value Types 
         - Cannot be null
-        - boll hasAccess = true; //or false
+        - bool hasAccess = true; //or false
          
          */
     class Program
