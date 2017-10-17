@@ -20,7 +20,6 @@ namespace EventsAndDelegates
         //public delegate void VideoEncodedEventHandler(object sender, VideoEventArgs args);  <------ Don't need anymore
         //Hold a reference to a function that looks like this
 
-
         // EventHandler
         // EventHandler<TEventArgs>
         public event EventHandler<VideoEventArgs> VideoEncoded;  //The same as above + below from the .NET 3.0 (maybe 2.0) to double check
